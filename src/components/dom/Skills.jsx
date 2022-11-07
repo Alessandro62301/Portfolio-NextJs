@@ -2,6 +2,7 @@ import CardBig from "../micro/CardBig";
 import CardSmall from "../micro/CardSmall";
 import TitleSection from "../micro/TitleSection";
 import IconReact from '/public/img/react.svg';
+import CardSwiper from '../micro/CardSwiper';
 
 const p1 = 'Construo sites responsivos que são rápidos, fáceis de usar e construídos com as melhores práticas.A principal área de minha experiência é o desenvolvimento Front - end, HTML, CSS, JS, construção de aplicativos web de pequeno e médio porte.';
 const p2 = 'Também tenho experiência como desenvolvedor Full - Stack utilizando Wordpress + PHP para criação de blogs e sites com conteúdo customizável e NodeJs para criação de Api(Application Programming Interface).';
@@ -36,6 +37,7 @@ export default function Skills() {
                     </div>
                 </div>
 
+                <CardSwiper />
             </div>
         </div>
     )
